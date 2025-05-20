@@ -1,0 +1,18 @@
+[package]
+name = "angular-structure-analyzer"
+version = "0.1.0"
+edition = "2024"
+authors = ["Your Name <your.email@example.com>"]
+description = "Angular project structure analyzer and visualizer"
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+walkdir = "2.3"
+regex = "1.8"
+colored = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+indicatif = "0.17"
+console = "0.15"
+atty = "0.2"
